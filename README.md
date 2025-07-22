@@ -6,9 +6,9 @@ Este proyecto es un portafolio personal desarrollado como parte del examen final
 
 ### 🔗 Enlaces Importantes
 
-- **🌐 Sitio Web:** [GitHub Pages URL - Se generará automáticamente]
+- **🌐 Sitio Web:** [https://rcdev714.github.io/examenFinal/]
 - **📂 Repositorio:** [https://github.com/rcdev714/examenFinal]
-- **🚀 Pipeline Status:** [![Deploy Status](https://github.com/tuusuario/examenFinal/workflows/Build,%20Test%20and%20Deploy%20to%20GitHub%20Pages/badge.svg)](https://github.com/tuusuario/examenFinal/actions)
+
 
 ## 🏗️ Arquitectura del Proyecto
 
