@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig(({ command }) => {
-  const base = command === 'build' ? '/examenFinal/app/' : '/'
+  const base = command === 'build' ? '/examenFinal/' : '/'
   
   return {
     plugins: [react()],
