@@ -3,12 +3,12 @@ import React from 'react'
 const Contact = () => {
   const education = [
     {
-      degree: "Software Engineering",
-      institution: "SEK International University",
+      degree: "Ingeniería de Software",
+      institution: "Universidad Internacional SEK",
       period: "2022-2026"
     },
     {
-      degree: "Economics",
+      degree: "Economía",
       institution: "Universidad San Francisco de Quito",
       period: "2017-2020"
     }
@@ -19,7 +19,7 @@ const Contact = () => {
       <div className="container">
         <div className="contact-content">
           <div className="education-section">
-            <h2>Education</h2>
+            <h2>Educación</h2>
             <div className="education-list">
               {education.map((edu, index) => (
                 <div key={index} className="education-item">
@@ -32,13 +32,13 @@ const Contact = () => {
           </div>
           
           <div className="contact-section">
-            <h2>Get In Touch</h2>
+            <h2>Contacto</h2>
             <div className="contact-links">
               <a href="mailto:sebsalgado44@gmail.com" className="contact-link">
                 📧 sebsalgado44@gmail.com
               </a>
               <a href="https://perceptronlabs.vercel.app" target="_blank" rel="noopener noreferrer" className="contact-link">
-                🌐 Portfolio
+                🌐 Portafolio
               </a>
               <a href="https://github.com/labsperceptron" target="_blank" rel="noopener noreferrer" className="contact-link">
                 💻 GitHub

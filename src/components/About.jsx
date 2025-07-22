@@ -4,12 +4,12 @@ const About = () => {
   return (
     <section className="about">
       <div className="container">
-        <h2>About Me</h2>
+        <h2>Sobre Mí</h2>
         <p className="about-description">
-          Experienced Software Engineer with 4+ years of expertise in cloud technologies, 
-          AI/ML development, and full-stack solutions. Currently serving as Product Manager/Tech Lead 
-          at OMNI in Madrid, where I lead innovative projects integrating AI with social media platforms. 
-          Passionate about automation, infrastructure optimization, and building scalable systems.
+          Ingeniero de Software con más de 4 años de experiencia en tecnologías cloud, 
+          desarrollo de IA/ML y soluciones full-stack. Actualmente, como Product Manager/Tech Lead 
+          en OMNI en Madrid, lidero proyectos innovadores que integran IA con plataformas de redes sociales. 
+          Apasionado por la automatización, la optimización de infraestructuras y la creación de sistemas escalables.
         </p>
       </div>
     </section>

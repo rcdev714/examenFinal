@@ -6,24 +6,24 @@ const Experience = () => {
       title: "Product Manager/Tech Lead",
       company: "OMNI",
       location: "Madrid",
-      period: "Jan 2024 - Present",
+      period: "Ene 2024 - Presente",
       achievements: [
-        "Integrated OpenAI API with social media platforms for automated appointment booking",
-        "Built voice interface system (Google Speech-to-Text + ElevenLabs TTS)",
-        "Developed AI agents for customer service automation"
+        "Integración de la API de OpenAI con redes sociales para la reserva automatizada de citas",
+        "Construcción de una interfaz de voz (Google Speech-to-Text + ElevenLabs TTS)",
+        "Desarrollo de agentes de IA para la automatización del servicio al cliente"
       ]
     },
     {
-      title: "Software Engineer",
+      title: "Ingeniero de Software",
       company: "TandiCorp",
       location: "Quito",
-      period: "Feb 2020 - Dec 2023",
+      period: "Feb 2020 - Dic 2023",
       achievements: [
-        "Infrastructure: Managed AWS production environments, on-premise servers",
-        "Security: Implemented RBAC, configured site-to-site VPN on AWS",
-        "Performance: Load balancing implementation, system optimization",
-        "Automation: Built Python-based AI agents for process automation",
-        "Data: AWS DataSync migrations, database management"
+        "Infraestructura: Gestión de entornos de producción en AWS y servidores on-premise",
+        "Seguridad: Implementación de RBAC, configuración de VPN site-to-site en AWS",
+        "Rendimiento: Implementación de balanceo de carga y optimización de sistemas",
+        "Automatización: Creación de agentes de IA con Python para la automatización de procesos",
+        "Datos: Migraciones con AWS DataSync y gestión de bases de datos"
       ]
     }
   ]
@@ -31,7 +31,7 @@ const Experience = () => {
   return (
     <section className="experience">
       <div className="container">
-        <h2>Experience</h2>
+        <h2>Experiencia</h2>
         <div className="experience-list">
           {experiences.map((job, index) => (
             <div key={index} className="experience-item">

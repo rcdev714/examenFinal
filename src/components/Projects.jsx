@@ -4,28 +4,28 @@ const Projects = () => {
   const projects = [
     {
       title: "Perceptron Labs",
-      description: "Open source AI development platform focused on machine learning research and development",
+      description: "Plataforma de desarrollo de IA de código abierto centrada en la investigación y el desarrollo de machine learning.",
       technologies: ["React", "Next.js", "OpenAI API", "Vercel"],
       link: "https://perceptronlabs.vercel.app",
       github: "https://github.com/labsperceptron"
     },
     {
-      title: "AI Customer Service Automation",
-      description: "Comprehensive AI agent system for automated customer service with voice interface integration",
+      title: "Automatización de Servicio al Cliente con IA",
+      description: "Sistema completo de agentes de IA para un servicio al cliente automatizado con integración de interfaz de voz.",
       technologies: ["Python", "OpenAI API", "Google Speech-to-Text", "ElevenLabs TTS"],
       link: "#",
       github: "#"
     },
     {
-      title: "Social Media Appointment Booking",
-      description: "Automated appointment booking system integrated with social media platforms using AI",
+      title: "Reserva de Citas en Redes Sociales",
+      description: "Sistema automatizado de reserva de citas integrado con plataformas de redes sociales mediante IA.",
       technologies: ["Node.js", "Express", "OpenAI API", "Social Media APIs"],
       link: "#",
       github: "#"
     },
     {
-      title: "AWS Infrastructure Automation",
-      description: "Python-based automation tools for AWS infrastructure management and optimization",
+      title: "Automatización de Infraestructura en AWS",
+      description: "Herramientas de automatización basadas en Python para la gestión y optimización de la infraestructura de AWS.",
       technologies: ["Python", "AWS SDK", "Docker", "CI/CD"],
       link: "#",
       github: "#"
@@ -35,7 +35,7 @@ const Projects = () => {
   return (
     <section className="projects">
       <div className="container">
-        <h2>Projects</h2>
+        <h2>Proyectos</h2>
         <div className="projects-grid">
           {projects.map((project, index) => (
             <div key={index} className="project-card">
@@ -49,7 +49,7 @@ const Projects = () => {
               <div className="project-links">
                 {project.link !== "#" && (
                   <a href={project.link} target="_blank" rel="noopener noreferrer" className="project-link">
-                    🌐 Live Demo
+                    🌐 Demo en Vivo
                   </a>
                 )}
                 {project.github !== "#" && (

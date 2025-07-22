@@ -3,9 +3,9 @@ import React from 'react'
 const Header = () => {
   const personalData = {
     name: "Sebastian Salgado",
-    title: "Software Engineer",
-    photo: "/profile.jpg", // Placeholder for photo
-    phone: "+34 123 456 789", // Example phone number
+    title: "Ingeniero de Software",
+    photo: "public/image.png", // Placeholder for photo
+    phone: "+593 93 980 0968", // Example phone number
     email: "sebsalgado44@gmail.com"
   }
 

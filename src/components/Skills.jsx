@@ -3,7 +3,7 @@ import React from 'react'
 const Skills = () => {
   const technicalStack = [
     {
-      category: "Languages",
+      category: "Lenguajes",
       skills: ["Python", "JavaScript", "TypeScript"]
     },
     {
@@ -15,19 +15,19 @@ const Skills = () => {
       skills: ["React", "Next.js"]
     },
     {
-      category: "Databases",
+      category: "Bases de Datos",
       skills: ["MySQL", "MongoDB", "PostgreSQL", "Supabase"]
     },
     {
       category: "Cloud",
-      skills: ["AWS (4+ years)", "Azure", "GCP"]
+      skills: ["AWS (4+ años)", "Azure", "GCP"]
     },
     {
-      category: "AI/ML",
-      skills: ["OpenAI API", "RAG implementation", "agent development"]
+      category: "IA/ML",
+      skills: ["OpenAI API", "Implementación de RAG", "Desarrollo de agentes"]
     },
     {
-      category: "Infrastructure",
+      category: "Infraestructura",
       skills: ["Docker", "Git", "XenServer", "CI/CD", "VPS"]
     }
   ]
@@ -35,7 +35,7 @@ const Skills = () => {
   return (
     <section className="skills">
       <div className="container">
-        <h2>Technical Stack</h2>
+        <h2>Stack Tecnológico</h2>
         <div className="skills-grid">
           {technicalStack.map((category, index) => (
             <div key={index} className="skill-category">
