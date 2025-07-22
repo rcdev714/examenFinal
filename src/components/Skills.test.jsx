@@ -6,30 +6,30 @@ describe('Skills Component - Minimum 5 Skills Validation', () => {
   it('should render the skills section title', () => {
     render(<Skills />)
     
-    const titleElement = screen.getByText('Technical Stack')
+    const titleElement = screen.getByText('Stack Tecnológico')
     expect(titleElement).toBeInTheDocument()
   })
 
   it('should display at least 5 skill categories', () => {
     render(<Skills />)
     
-    // Check for specific categories that should be present
+    // Check for at least 5 skill categories
     const categories = [
-      'Languages',
-      'Backend', 
+      'Lenguajes',
+      'Backend',
       'Frontend',
-      'Databases',
-      'Cloud',
-      'AI/ML',
-      'Infrastructure'
+      'Bases de Datos',
+      'Cloud', 
+      'IA/ML', 
+      'Infraestructura'
     ]
     
     categories.forEach(category => {
       expect(screen.getByText(category)).toBeInTheDocument()
     })
     
-    // Validate that we have more than 5 categories
-    expect(categories.length).toBeGreaterThanOrEqual(5)
+    const categoryElements = document.querySelectorAll('.skill-category')
+    expect(categoryElements.length).toBeGreaterThanOrEqual(5)
   })
 
   it('should have at least 5 total skill items across all categories', () => {
@@ -43,21 +43,22 @@ describe('Skills Component - Minimum 5 Skills Validation', () => {
   it('should display specific required skills', () => {
     render(<Skills />)
     
-    // Validate presence of key technical skills
+    // Check for specific skills to ensure content is loaded
     const requiredSkills = [
       'Python',
-      'JavaScript', 
       'React',
-      'AWS (4+ years)',
-      'MongoDB'
+      'Node.js',
+      'AWS (4+ años)',
+      'OpenAI API'
     ]
     
     requiredSkills.forEach(skill => {
       expect(screen.getByText(skill)).toBeInTheDocument()
     })
     
-    // Ensure we have at least 5 required skills
-    expect(requiredSkills.length).toBeGreaterThanOrEqual(5)
+    // Validate minimum of 5 skills are present
+    const skillElements = document.querySelectorAll('.skill-item')
+    expect(skillElements.length).toBeGreaterThanOrEqual(5)
   })
 
   it('should render skill categories with proper structure', () => {

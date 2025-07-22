@@ -16,7 +16,7 @@ describe('Header Component - Personal Data Validation', () => {
     render(<Header />)
     
     // Validate that phone number is present
-    const phoneElement = screen.getByText(/\+34 123 456 789/)
+    const phoneElement = screen.getByText(/\+593 93 980 0968/)
     expect(phoneElement).toBeInTheDocument()
     expect(phoneElement).toHaveClass('phone')
   })
@@ -46,7 +46,7 @@ describe('Header Component - Personal Data Validation', () => {
   it('should display professional title', () => {
     render(<Header />)
     
-    const titleElement = screen.getByText('Software Engineer')
+    const titleElement = screen.getByText('Ingeniero de Software')
     expect(titleElement).toBeInTheDocument()
     expect(titleElement).toHaveClass('title')
   })
@@ -56,7 +56,7 @@ describe('Header Component - Personal Data Validation', () => {
     
     // Comprehensive validation of all personal data requirements
     expect(screen.getByText('Sebastian Salgado')).toBeInTheDocument() // Names and surnames
-    expect(screen.getByText(/\+34 123 456 789/)).toBeInTheDocument() // Phone number
+    expect(screen.getByText(/\+593 93 980 0968/)).toBeInTheDocument() // Phone number
     expect(screen.getByAltText('Sebastian Salgado')).toBeInTheDocument() // Photo
     expect(screen.getByText(/sebsalgado44@gmail.com/)).toBeInTheDocument() // Email (additional contact)
   })

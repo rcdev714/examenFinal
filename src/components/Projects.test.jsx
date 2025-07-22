@@ -6,7 +6,7 @@ describe('Projects Component - Minimum 3 Projects Validation', () => {
   it('should render the projects section title', () => {
     render(<Projects />)
     
-    const titleElement = screen.getByText('Projects')
+    const titleElement = screen.getByText('Proyectos')
     expect(titleElement).toBeInTheDocument()
   })
 
@@ -24,9 +24,9 @@ describe('Projects Component - Minimum 3 Projects Validation', () => {
     // Validate presence of at least 3 specific projects
     const requiredProjects = [
       'Perceptron Labs',
-      'AI Customer Service Automation',
-      'Social Media Appointment Booking',
-      'AWS Infrastructure Automation'
+      'Automatización de Servicio al Cliente con IA',
+      'Reserva de Citas en Redes Sociales',
+      'Automatización de Infraestructura en AWS'
     ]
     
     // Check that at least 3 project titles are present

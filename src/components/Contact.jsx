@@ -38,10 +38,7 @@ const Contact = () => {
                 📧 sebsalgado44@gmail.com
               </a>
               <a href="https://perceptronlabs.vercel.app" target="_blank" rel="noopener noreferrer" className="contact-link">
-                🌐 Portafolio
-              </a>
-              <a href="https://github.com/labsperceptron" target="_blank" rel="noopener noreferrer" className="contact-link">
-                💻 GitHub
+                🌐 Portafolio Proyectos
               </a>
             </div>
           </div>

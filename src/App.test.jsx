@@ -12,16 +12,16 @@ describe('App Portfolio', () => {
     render(<App />)
     
     // Check for main sections
-    expect(screen.getByText('About Me')).toBeInTheDocument()
-    expect(screen.getByText('Technical Stack')).toBeInTheDocument()
-    expect(screen.getByText('Experience')).toBeInTheDocument()
-    expect(screen.getByText('Projects')).toBeInTheDocument()
-    expect(screen.getByText('Education')).toBeInTheDocument()
+    expect(screen.getByText('Sobre Mí')).toBeInTheDocument()
+    expect(screen.getByText('Stack Tecnológico')).toBeInTheDocument()
+    expect(screen.getByText('Experiencia')).toBeInTheDocument()
+    expect(screen.getByText('Proyectos')).toBeInTheDocument()
+    expect(screen.getByText('Educación')).toBeInTheDocument()
   })
 
   it('displays software engineer title', () => {
     render(<App />)
     // Look for the title specifically in the header section
-    expect(screen.getByRole('heading', { level: 2, name: 'Software Engineer' })).toBeInTheDocument()
+    expect(screen.getByRole('heading', { level: 2, name: 'Ingeniero de Software' })).toBeInTheDocument()
   })
 }) 
