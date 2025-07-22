@@ -33,33 +33,26 @@ jobs:
       with:
         node-version: '18'
         cache: 'npm'
-        cache-dependency-path: app/package-lock.json
     
     # Step 1: Install dependencies
     - name: Install dependencies
-      run: |
-        cd app
-        npm ci
+      run: npm ci
     
     # Step 2: Run unit tests
     - name: Run unit tests
-      run: |
-        cd app
-        npm run test:run
+      run: npm run test:run
       env:
         CI: true
     
     # Step 3: Build the project
     - name: Build project
-      run: |
-        cd app
-        npm run build
+      run: npm run build
     
     # Upload build artifacts for deployment
     - name: Upload build artifacts
       uses: actions/upload-pages-artifact@v3
       with:
-        path: app/dist
+        path: dist
 
   # Deploy Job (runs after build-and-test)
   deploy:
