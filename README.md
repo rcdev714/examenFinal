@@ -41,7 +41,7 @@ examenFinal/
 
 ### 📋 Datos Personales Requeridos
 - ✅ **Fotografía:** Imagen cargada correctamente con fallback
-- ✅ **Número de teléfono:** +34 123 456 789
+- ✅ **Número de teléfono:** +593 93 980 0968
 - ✅ **Nombres y apellidos:** Sebastian Salgado
 
 ### 🔧 Habilidades Técnicas (Mínimo 5)
@@ -56,7 +56,7 @@ examenFinal/
 
 ### 💼 Proyectos (Mínimo 3)
 - ✅ **4 proyectos implementados:**
-  1. **Perceptron Labs** - Plataforma AI open source
+  1. **Perceptron Labs** - Proyectos open source
   2. **AI Customer Service Automation** - Sistema de atención automatizado
   3. **Social Media Appointment Booking** - Reservas automáticas en redes sociales
   4. **AWS Infrastructure Automation** - Herramientas de automatización AWS
