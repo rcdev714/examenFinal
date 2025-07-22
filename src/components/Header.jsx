@@ -4,8 +4,8 @@ const Header = () => {
   const personalData = {
     name: "Sebastian Salgado",
     title: "Ingeniero de Software",
-    photo: "image.png", // Placeholder for photo
-    phone: "+593 93 980 0968", // Example phone number
+    photo: "image.png", 
+    phone: "+593 93 980 0968", 
     email: "sebsalgado44@gmail.com"
   }
 

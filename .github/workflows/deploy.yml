@@ -47,6 +47,8 @@ jobs:
     # Step 3: Build the project
     - name: Build project
       run: npm run build
+      env:
+        BASE_PATH: /examenFinal/app/
     
     # Upload build artifacts for deployment
     - name: Upload build artifacts
